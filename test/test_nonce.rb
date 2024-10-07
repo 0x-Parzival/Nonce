@@ -6,7 +6,7 @@ need{"baz"}
 
 require "test/unit"
 
-class TestBlockChainable < Test::Unit::TestCase
+class Nonce < Test::Unit::TestCase
   def test_standard_method_call
     Foo do
       assert is_foo?
