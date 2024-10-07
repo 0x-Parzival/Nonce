@@ -3,7 +3,7 @@ require 'need'
 need{"../lib/nonce"}
 
 class Bar
-  include BlockChainable
+  include Nonce
   
   def is_bar?
     true
