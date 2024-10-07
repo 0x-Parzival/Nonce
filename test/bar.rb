@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'need'
-need{"../lib/block_chainable"}
+need{"../lib/nonce"}
 
 class Bar
   include BlockChainable
