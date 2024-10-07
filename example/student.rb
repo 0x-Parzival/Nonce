@@ -1,9 +1,9 @@
 require 'rubygems'
 require 'need'
-need{"../lib/block_chainable"}
+need{"../lib/nonce"}
 
 class Student
-  include BlockChainable
+  include Nonce
   
   def add_to_roster
     add_student_to_class self
