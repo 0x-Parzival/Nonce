@@ -3,7 +3,7 @@ require 'need'
 need{"foo"}
 need{"bar"}
 
-describe "test block chainable" do
+describe "test nonce" do
   it "should work on standard method calls" do
     Foo do
       is_foo?.should == true
