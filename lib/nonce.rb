@@ -1,4 +1,4 @@
-module BlockChainable
+module Nonce
   module ClassMethods
     def start(*args,&block)
       klass_instance = self.new(*args)
@@ -19,7 +19,7 @@ module BlockChainable
     end
     
     def inherited(klass)
-      klass.class_eval{include BlockChainable}
+      klass.class_eval{include Nonce}
     end
   end
   
