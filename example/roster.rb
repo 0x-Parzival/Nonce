@@ -1,9 +1,9 @@
 require 'rubygems'
 require 'need'
-need{"../lib/block_chainable"}
+need{"../lib/nonce"}
 
 class Roster
-  include BlockChainable
+  include Nonce
   
   def initialize(subject)
     @subject = subject
