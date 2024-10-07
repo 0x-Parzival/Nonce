@@ -1,9 +1,9 @@
 require 'rubygems'
 require 'need'
-need{"../lib/block_chainable"}
+need{"../lib/nonce"}
 
 class Foo
-  include BlockChainable
+  include Nonce
   
   def is_foo?
     true
